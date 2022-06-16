@@ -1,0 +1,98 @@
+*{
+    color: rgb(0, 27, 177);
+    text-align: center;
+    flex-direction: column;
+}
+
+body{
+    background-color: beige;
+}
+
+.title{
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    margin: 0 10%;
+    font-size: 80%;
+    background-color: rgb(66, 241, 197);
+    border-radius: 20px;
+    margin: 10px 10%;
+}
+
+.timer{
+    font-size: 150%;
+    background-color: rgb(66, 241, 197);
+    border-radius: 20px;
+    margin: 10px 10%;
+}
+
+.quiz{
+    font-size: 125%;
+    background-color: rgb(66, 241, 197);
+    border-radius: 20px;
+    margin: 10px 10%;
+    width:auto;
+    height: auto;
+    padding: 10px;
+}
+
+.rightWrong {
+    font-size: 150%;
+    background-color: rgb(66, 241, 197);
+    border-radius: 20px;
+    margin: 10px 10%;
+    display: block;
+}
+
+.view-highscores-button{
+    font-size: 125%;
+    background-color: rgb(66, 241, 197);
+    border-radius: 20px;
+    margin: 10px 10%;
+}
+
+.view-highscores-button:hover{
+    background-color: rgb(66, 241, 197);
+    border-radius: 20px;
+    margin: 10px 10%;
+    box-shadow: 0 0 10px #000 inset;
+    font-size: x-large;
+}
+
+.view-highscores-button:active{
+    background-color: rgb(66, 86, 241);
+    color: whitesmoke;
+    border-radius: 20px;
+    margin: 10px 10%;
+    box-shadow: 0 0 10px #000 inset;
+    font-size: x-large;
+}
+
+.start-quiz-btn{
+    width: max-content;
+    background-color: rgb(66, 241, 197);
+    border-radius: 20px;
+    margin: 10px 10%;
+}
+
+.start-quiz-btn:hover{
+    background-color: rgb(66, 241, 197);
+    border-radius: 20px;
+    margin: 10px 10%;
+    box-shadow: 0 0 10px #000 inset;
+    font-size: x-large;
+}
+
+.start-quiz-btn:active{
+    background-color: rgb(66, 86, 241);
+    color: whitesmoke;
+    border-radius: 20px;
+    margin: 10px 10%;
+    box-shadow: 0 0 10px #000 inset;
+    font-size: x-large;
+}
+
+#start-quiz-btn{
+    margin: 10px;
+    background-color: rgb(66, 241, 197);
+    border-width: 0;
+    color: #000;
+}
