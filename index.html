@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,17 @@
     <title>Coding Quiz</title>
     <link rel="stylesheet" href="./Develop/style.css" />
 </head>
+
 <body>
 
     <div class="view-highscores-button">
         <h3>View Highscores</h3>
     </div>
 
-    <div class="title"> 
+    <div class="title">
         <h1> JavaScript Quiz</h1>
-        <h2> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/ time by 10 seconds </h2>
+        <h2> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect
+            answers will penalize your score/ time by 10 seconds </h2>
 
     </div>
 
@@ -25,27 +28,40 @@
 
     <div class="quiz">
         <h3 class="question">Question</h3>
-        <button class="a"></button>
-        <button class="b"></button>
-        <button class="c"></button>
-        <button class="d"></button>
+        <div class="choices1">
+            <button class="a"></button>
+            <button class="b"></button>
+            <button class="c"></button>
+            <button class="d"></button>
+        </div>
         <!-- Q2 Choices -->
-        <button class="a2"></button>
-        <button class="b2"></button>
+        <div class="choices2">
+            <button class="a2"></button>
+            <button class="b2"></button>
+        </div>
         <!-- Q3 Choices -->
-        <button class="a3"></button>
-        <button class="b3"></button>
-        <button class="c3"></button>
-        <button class="d3"></button>
+        <div class="choices3">
+            <button class="a3"></button>
+            <button class="b3"></button>
+            <button class="c3"></button>
+            <button class="d3"></button>
+        </div>
         <!-- Q4 Choices -->
-        <button class="a4"></button>
-        <button class="b4"></button>
-        <button class="c4"></button>
-        <button class="d4"></button>
+        <div class="choices4">
+            <button class="a4"></button>
+            <button class="b4"></button>
+            <button class="c4"></button>
+            <button class="d4"></button>
+        </div>
         <!-- Q5 Choices -->
-        <button class="a5"></button>
-        <button class="b5"></button>
-        <button class="c5"></button>        <h3 class="rightWrong"></h3>
+        <div class="choices5">
+
+            <button class="a5" onclick="showHighscores()"></button>
+            <button class="b5" onclick="showHighscores()"></button>
+            <button class="c5" onclick="showHighscores()"></button>
+
+        </div>
+        <h3 class="rightWrong"></h3>
     </div>
 
     <div class="start-quiz-btn">
@@ -53,4 +69,5 @@
     </div>
     <script src="./Develop/script.js"></script>
 </body>
+
 </html>
